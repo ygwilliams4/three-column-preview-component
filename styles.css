@@ -1,11 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 76%);
+}
+h1 {
+  font-family: "Big shoulder Display", serif;
+  margin: 1.3rem 0;
+}
+p {
+  font-family: "Lexand Deca", serif;
+  margin: 1rem 0;
+  line-height: 1.5;
+  color: hsl(0, 0%, 95%);
+}
+.card {
+  width: 100%;
+  min-height: 420px;
+  padding: 2rem 2.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  width: 140px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  background: transparent;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+.orange button {
+  color: orange;
+}
+.orange button:hover {
+  color: #fff;
+}
+.cyan button:hover {
+  color: #fff;
+}
+.darkcyan button:hover {
+  color: #fff;
+}
+.cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.cyan button {
+  color: hsl(184, 100%, 22%);
+}
+.darkcyan {
+  background-color: hsl(179, 100%, 13%);
+}
+.darkcyan button {
+  color: hsl(179, 100%, 13%);
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 0.3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 426px) {
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    max-width: 900px;
+  }
 }
