@@ -12,12 +12,12 @@ main {
   background-color: hsl(0, 0%, 76%);
 }
 h1 {
-  font-family: "Big shoulder Display", serif;
+  font-family: "Big shoulders Display", serif;
   margin: 1.3rem 0;
 }
 p {
-  font-family: "Lexand Deca", serif;
-  margin: 1rem 0;
+  font-family: "Lexend Deca", serif;
+  margin: 1rem 0 1.2rem;
   line-height: 1.5;
   color: hsl(0, 0%, 95%);
 }
